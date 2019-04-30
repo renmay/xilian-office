@@ -1,0 +1,11 @@
+<view class="container">
+  <view class="no-login" wx:if="{{!hasLogin}}">
+    <view class="c">
+      <text>还没有报名</text>
+      <button plain="true" bindtap="goEnroll">报名信息界面</button>
+       <button plain="true" bindtap="goEnroll">报名信息界面</button>
+        <button plain="true" bindtap="goEnroll">报名信息界面</button>
+         <button plain="true" bindtap="goEnroll">报名信息界面</button>
+    </view>
+  </view>
+</view>

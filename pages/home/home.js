@@ -41,9 +41,9 @@ Page({
   onUnload: function() {
     // 页面关闭
   },
-  goLogin() {
+  goEnroll() {
     wx.navigateTo({
-      url: "/pages/auth/login/login"
+      url: "/pages/enroll/enroll"
     });
   },
 

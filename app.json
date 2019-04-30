@@ -1,6 +1,7 @@
 {
   "pages": [
-    "pages/index/index",
+    "pages/enroll/enroll",    
+    "pages/home/home",
     "pages/catalog/catalog",
     "pages/newGoods/newGoods",
     "pages/hotGoods/hotGoods",
@@ -21,12 +22,14 @@
     "pages/brandDetail/brandDetail",
     "pages/search/search",
     "pages/category/category",
-    "pages/cart/cart",
+    "pages/enrollDetail/enrollDetail",
+    "pages/index/index",
     "pages/shopping/checkout/checkout",
     "pages/goods/goods",
     "pages/groupon/myGroupon/myGroupon",
     "pages/groupon/grouponDetail/grouponDetail",
-    "pages/groupon/grouponList/grouponList"
+    "pages/groupon/grouponList/grouponList",
+    "pages/temp/temp"
   ],
   "window": {
     "navigationBarTitleText": "Renard",
@@ -51,11 +54,6 @@
         "pagePath": "pages/catalog/catalog",
         "iconPath": "images/tabbar/menu-f.png",
         "selectedIconPath": "images/tabbar/menu-o.png"
-      },
-      {
-        "pagePath": "pages/cart/cart",
-        "iconPath": "images/tabbar/cart-f.png",
-        "selectedIconPath": "images/tabbar/cart-o.png"
       },
       {
         "pagePath": "pages/ucenter/index/index",

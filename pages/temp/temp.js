@@ -136,9 +136,4 @@ Page({
   onUnload: function () {
     // 页面关闭
   },
-  goEnroll() {
-    wx.navigateTo({
-      url: "/pages/enroll/enroll"
-    });
-  },
 });

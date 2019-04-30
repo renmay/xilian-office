@@ -1,0 +1,9 @@
+<view class="container">
+  <view class="no-login" wx:if="{{!hasLogin}}">
+    <view class="c">
+      <!-- <image class="icon" src="/images/enroll.png"></image> -->
+      <text>还没有报名哦</text>
+      <button plain="true" bindtap="goEnroll">去报名</button>
+    </view>
+  </view>
+</view>
